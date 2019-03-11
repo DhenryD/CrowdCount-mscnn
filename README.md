@@ -2,7 +2,7 @@
 1. Install pytorch
 2. Clone this repository
   ```Shell
-  git clone https://github.com/DhenryD/crowdcount-mcnn.git
+  git clone https://github.com/DhenryD/CrowdCount-mscnn.git
   ```
   We'll call the directory that you cloned CrowdCount-mscnn `ROOT`
 
