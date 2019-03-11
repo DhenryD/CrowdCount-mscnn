@@ -1,14 +1,10 @@
-# Single Image Crowd Counting via Multi Column Convolutional Neural Network
-
-This is an unofficial implementation of CVPR 2016 paper ["Single Image Crowd Counting via Multi Column Convolutional Neural Network"](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Zhang_Single-Image_Crowd_Counting_CVPR_2016_paper.pdf)
-
 # Installation
 1. Install pytorch
 2. Clone this repository
   ```Shell
-  git clone https://github.com/svishwa/crowdcount-mcnn.git
+  git clone https://github.com/DhenryD/crowdcount-mcnn.git
   ```
-  We'll call the directory that you cloned crowdcount-mcnn `ROOT`
+  We'll call the directory that you cloned CrowdCount-mscnn `ROOT`
 
 
 # Data Setup
@@ -50,26 +46,6 @@ This is an unofficial implementation of CVPR 2016 paper ["Single Image Crowd Cou
 2. Run train.py
 
 
-# Training with TensorBoard
-With the aid of [Crayon](https://github.com/torrvision/crayon),
-we can access the visualisation power of TensorBoard for any 
-deep learning framework.
 
-To use the TensorBoard, install Crayon (https://github.com/torrvision/crayon)
-and set `use_tensorboard = True` in `ROOT/train.py`.
-
-# Other notes
-1. During training, the best model is chosen using error on the validation set. (It is not clear how the authors in the original implementation choose the best model).
-2. 10% of the training set is set asised for validation. The validation set is chosen randomly.
-3. The ground truth density maps are obtained using simple gaussian maps unlike the original method described in the paper.
-4. Following are the results on  Shanghai Tech A and B dataset:
-		
-                |     |  MAE  |   MSE  |
-                ------------------------
-                | A   |  110  |   169  |
-                ------------------------
-                | B   |   25  |    44  |
-		
-5. Also, please take a look at our new work on crowd counting using cascaded cnn and high-level prior (https://github.com/svishwa/crowdcount-cascaded-mtl),  which has improved results as compared to this work. 
                
 
