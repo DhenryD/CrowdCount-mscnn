@@ -12,9 +12,7 @@
    
    Extraction code： 7ous
    
-2. Create Directory 
-  
-  ROOT/data/original/shanghaitech/  
+2. Create Directory    ROOT/data/original/shanghaitech/  
  
 3. Save "part_A_final" under   ROOT/data/original/shanghaitech/
 
