@@ -12,17 +12,17 @@
    
    Extraction code： 7ous
    
-2. Create Directory    ROOT/data/original/shanghaitech/  
+2. Create Directory    `ROOT`/data/original/shanghaitech/  
  
-3. Save "part_A_final" under   ROOT/data/original/shanghaitech/
+3. Save "part_A_final" under   `ROOT`/data/original/shanghaitech/
 
-4. Save "part_B_final" under   ROOT/data/original/shanghaitech/
+4. Save "part_B_final" under   `ROOT`/data/original/shanghaitech/
 
-5. cd ROOT/data_preparation/
+5. cd `ROOT`/data_preparation/
    
    run create_gt_test_set_shtech.m in matlab to create ground truth files for test data
 
-6. cd ROOT/data_preparation/
+6. cd `ROOT`/data_preparation/
    
    run create_training_set_shtech.m in matlab to create training and validataion set along with ground truth files
 
@@ -35,7 +35,7 @@
    
    [[Shanghai Tech B](https://www.dropbox.com/s/kqqkl0exfshsw8v/mcnn_shtechB_110.h5?dl=0)]
    
-   Save the model files under ROOT/final_models
+   Save the model files under `ROOT`/final_models
    
 3. Run test.py
 
