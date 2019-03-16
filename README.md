@@ -31,9 +31,8 @@
 
 2. Download pre-trained model files(The best model we have trained):
 
-   [[Shanghai Tech A](https://www.dropbox.com/s/8bxwvr4cj4bh5d8/mcnn_shtechA_660.h5?dl=0)]
-   
-   [[Shanghai Tech B](https://www.dropbox.com/s/kqqkl0exfshsw8v/mcnn_shtechB_110.h5?dl=0)]
+   [[pre-trained model](https://pan.baidu.com/s/1gHfbryZAweCQfBM8HXdaLA)] 
+   Extraction code：ew22
    
    Save the model files under `ROOT`/final_models
    
